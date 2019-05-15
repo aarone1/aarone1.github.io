@@ -2,6 +2,7 @@
     
     <head>
         <link href="iman.css" type="text/css" rel="stylesheet" /> <!--adding a link to CSS- Iman-->
+        <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Beginning of link rel Alan -->
         <title>HTML Practice - IMD233</title>
         <style> /* Beginning of style Alan */
             h1 {color:crimson;}
@@ -40,9 +41,9 @@
     <h1>Cascading Style Sheets</h1>
     <p style="font-size:420px; color:teal;">Big I certainly am</p> <!-- style="" Alan -->
     <h2>It's magenta time say goodnight</h2> <!-- Magenta threat Aaron -->
-    </body> <!-- End of style Alan -->
+    <!-- End of style Alan -->
    
-    <body>
+   
         <h1>Practice Heading</h1>  <!-- Heading 1 Alan -->
         <h2>Practice Heading 2</h2> <!-- Heading 2 Alan -->
         <h3>Practice Heading 3</h3> <!-- Heading 3 Alan -->
@@ -52,10 +53,6 @@
         
         <strong>Super Buff Heading</strong> <!-- Bolded Heading Aaron -->
        
-       <head> <!-- Beginning of link rel Alan -->
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
         <p>Text here</p> <!-- Beginning of div Alan -->
         
         <div style="background-color:crimson">
@@ -68,8 +65,7 @@
         <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiypfelp_7hAhUCilQKHXszB80QjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fwww.fancydressball.co.uk%252Ffancy-dress-a-to-z%252Fletter-e-costumes.htm%26psig%3DAOvVaw1iqdZNYoNIhQkoEy2QnhSa%26ust%3D1556936670770328&psig=AOvVaw1iqdZNYoNIhQkoEy2QnhSa&ust=1556936670770328">Click here for happy fun time</a>
         <!-- Long fun time link Aaron -->
         
-        </body> <!-- End of link rel Alan -->
-        <body>
+
             <div id="iman">
                 <h1>Iman's CSS Practice</h1>
                 <h2>CSS Practice 1</h2>
@@ -82,7 +78,7 @@
                     a unique style for a single elemnt</p> <!--adding an inline style-Iman-->
                 <a href= "index2.html">visit Iman's site</a>
             </div>
-        </body>
+
         
         <i>this is italic text</i> <!--italic Text Iman -->
 
@@ -124,8 +120,6 @@
         <p><span style="color:red"> Red </span> and <span style="color:green">Green</span></p> <!--span tag Iman-->
 
         
-    </body>
-    <body>
         <!-- font altering Aaron -->
         <font face="sans-serif" size="1">
             Hello this is Aaron's super small secret text have a nice day
