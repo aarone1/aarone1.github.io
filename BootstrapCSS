@@ -1,0 +1,142 @@
+<html>
+    
+    <head>
+        <link href="iman.css" type="text/css" rel="stylesheet" /> <!--adding a link to CSS- Iman-->
+        <title>HTML Practice - IMD233</title>
+        <style> /* Beginning of style Alan */
+            h1 {color:crimson;}
+            h2 {color:magenta; font-family:verdana; font-size:300%;} /* h2 style change Aaron */
+            
+            /*All my styles will only impact child elements  of my div with ID "iman"*/
+            /* syntax:
+            parent-select descendant-selector { styles } 
+            Iman*/
+            
+            #iman {
+                background-color: #CEF0FA;
+            }
+            
+            /*using class selector -Iman */
+            #iman  .center{ 
+                color: blue;
+                text-align: center; 
+                font-size: 40px;
+            }
+            /*using class selector with specific class -Iman */
+            #iman  p.large{ 
+                font-size:50px
+            } 
+            /* using id selector -Iman */
+            #iman  #practice{ 
+                font-size:30px;
+                color:green; 
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+    <h1>Cascading Style Sheets</h1>
+    <p style="font-size:420px; color:teal;">Big I certainly am</p> <!-- style="" Alan -->
+    <h2>It's magenta time say goodnight</h2> <!-- Magenta threat Aaron -->
+    </body> <!-- End of style Alan -->
+   
+    <body>
+        <h1>Practice Heading</h1>  <!-- Heading 1 Alan -->
+        <h2>Practice Heading 2</h2> <!-- Heading 2 Alan -->
+        <h3>Practice Heading 3</h3> <!-- Heading 3 Alan -->
+        
+        <img src = "https://wiki.teamfortress.com/w/images/a/af/Demoman_taunt_laugh.png" width="200" height="200">
+        <!-- Explosive man laughing Aaron -->
+        
+        <strong>Super Buff Heading</strong> <!-- Bolded Heading Aaron -->
+       
+       <head> <!-- Beginning of link rel Alan -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+        <p>Text here</p> <!-- Beginning of div Alan -->
+        
+        <div style="background-color:crimson">
+            <h3>Random title text</h3>
+            <p>small text</p>
+            </div>
+        
+        <p>Text here</p> <!-- End of div Alan -->
+        
+        <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiypfelp_7hAhUCilQKHXszB80QjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fwww.fancydressball.co.uk%252Ffancy-dress-a-to-z%252Fletter-e-costumes.htm%26psig%3DAOvVaw1iqdZNYoNIhQkoEy2QnhSa%26ust%3D1556936670770328&psig=AOvVaw1iqdZNYoNIhQkoEy2QnhSa&ust=1556936670770328">Click here for happy fun time</a>
+        <!-- Long fun time link Aaron -->
+        
+        </body> <!-- End of link rel Alan -->
+        <body>
+            <div id="iman">
+                <h1>Iman's CSS Practice</h1>
+                <h2>CSS Practice 1</h2>
+                <div>
+                    <p class="center large">It is going to take alot of practice to nail this</p>
+                </div>
+                <p class="center"> The class selectors select elements with a specific class attribute</p>
+                <p id="practice">The id selector uses the id attribute to select a specefic element </P>
+                <p style="color:green; font-size: 50px; margin-left: 50px;">An inline style used to apply 
+                    a unique style for a single elemnt</p> <!--adding an inline style-Iman-->
+                <a href= "index2.html">visit Iman's site</a>
+            </div>
+        </body>
+        
+        <i>this is italic text</i> <!--italic Text Iman -->
+
+        <h3>Ordered List</h3>
+        <ol> <!--Ordered List Iman -->
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ol>
+
+        <h3>Unordered List</h3> 
+        <ul> <!--unordered list Iman -->
+            <li>coffee</li>
+            <li>tea</li>
+            <li>milk</li>
+        </ul>
+        <h3>School Table</h3> <!--creating table with borders to make it easy to read Iman -->
+        <table style="width:50%;border: 1px solid black;border: 1px solid black;border-collapse: collapse;">
+            <tr>
+                <th style="border: 1px solid black;border-collapse: collapse;">class</th>
+                <th style="border: 1px solid black;border-collapse: collapse;">time</th>
+                <th style="border: 1px solid black;border-collapse: collapse;">credits</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;border-collapse: collapse;">IMD233</td>
+                <td style="border: 1px solid black;border-collapse: collapse;">5:30 p.m.</td>
+                <td style="border: 1px solid black;border-collapse: collapse;">5 credits</td>
+            </tr>
+
+            <tr>
+                <td style="border: 1px solid black;border-collapse: collapse;">IMD25o</td>
+                <td style="border: 1px solid black;border-collapse: collapse;">10:30 a.m.</td>
+                <td style="border: 1px solid black;border-collapse: collapse;">5 credits</td>
+            </tr>
+            
+        </table> <!--end of the table-->
+
+        <p><em>This text is emphasized!!</em></p> <!--emphasized text Iman-->
+        <p><span style="color:red"> Red </span> and <span style="color:green">Green</span></p> <!--span tag Iman-->
+
+        
+    </body>
+    <body>
+        <!-- font altering Aaron -->
+        <font face="sans-serif" size="1">
+            Hello this is Aaron's super small secret text have a nice day
+        </font>
+        
+        <a href="http://tofutrueno.com/">Shameless plug</a> <!-- <a> tag Alan-->
+       
+        <!-- text alignment Aaron -->
+        <div style = "text-align:right;">
+            Why am I over here
+        </div>
+
+    </body>
+</html>
