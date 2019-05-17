@@ -41,6 +41,18 @@
                 color:green; 
                 text-align: center;
             }
+            .flex-container {
+                display: flex;
+                flex-direction: row;
+                background-color: blue;
+            }
+            .flex-container > div {
+                background-color: white;
+                margin: 10px;
+                padding: 20px;
+                font-size: 30px;
+            }
+
             
         </style>
     </head>
@@ -178,6 +190,13 @@
         <div style = "text-align:right;">
             Why am I over here
         </div>
+
+        <div class="flex-container"> <!--adding flex container-Iman-->
+                <div>1</div>
+                <div>2</div>
+                <div>3</div> 
+                <div>4</div> 
+                </div> 
 
     </body>
 </html>
